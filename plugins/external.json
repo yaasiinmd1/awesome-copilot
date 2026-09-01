@@ -54,6 +54,31 @@
     }
   },
   {
+    "name": "anarlog",
+    "description": "Query Anarlog meeting notes, summaries, transcripts, participants, action items, and recurring history.",
+    "version": "1.0.0",
+    "author": {
+      "name": "Fastrepl",
+      "url": "https://anarlog.so"
+    },
+    "repository": "https://github.com/fastrepl/anarlog",
+    "homepage": "https://docs.anarlog.so/agents/overview",
+    "license": "MIT",
+    "keywords": [
+      "meetings",
+      "notes",
+      "transcripts",
+      "productivity",
+      "mcp"
+    ],
+    "source": {
+      "source": "github",
+      "repo": "fastrepl/anarlog",
+      "path": "agent-plugins/anarlog",
+      "sha": "cf25cb679a7ef8e6cec18e7c6c0d8a3a17e245c3"
+    }
+  },
+  {
     "name": "apify",
     "description": "Helps devs extract data from any website with thousands of trusted scrapers, crawlers, and automations from Apify Store. Integrate ready-made Actors to access all popular social media, video, e-commerce, search engines, maps, and travel sites. Build, debug, publish, and monetize new Actors on Apify.",
     "version": "1.0.0",
@@ -290,6 +315,53 @@
     }
   },
   {
+    "name": "crowdstrike-falcon-foundry",
+    "description": "AI coding assistant skills for building CrowdStrike Falcon Foundry apps: scaffolding, deployment, and best practices for API integrations, collections, functions, UI extensions, UI pages, and workflows.",
+    "version": "1.5.0",
+    "author": {
+      "name": "CrowdStrike",
+      "url": "https://www.crowdstrike.com/"
+    },
+    "repository": "https://github.com/CrowdStrike/foundry-skills",
+    "license": "MIT",
+    "keywords": [
+      "foundry",
+      "crowdstrike",
+      "cybersecurity",
+      "falcon",
+      "security"
+    ],
+    "source": {
+      "source": "github",
+      "repo": "CrowdStrike/foundry-skills",
+      "sha": "d9af175fe2b86836b431ebdb7e088957e6c7820d"
+    }
+  },
+  {
+    "name": "crowdstrike-falcon-fusion",
+    "description": "AI coding assistant skills for building CrowdStrike Falcon Fusion workflows: action discovery, YAML authoring, deployment, execution monitoring, and best practices for triggers, conditions, loops, and HTTP Actions.",
+    "version": "1.1.0",
+    "author": {
+      "name": "CrowdStrike",
+      "url": "https://www.crowdstrike.com"
+    },
+    "repository": "https://github.com/CrowdStrike/fusion-skills",
+    "license": "MIT",
+    "keywords": [
+      "fusion-workflows",
+      "crowdstrike",
+      "cybersecurity",
+      "falcon",
+      "security"
+    ],
+    "source": {
+      "source": "github",
+      "repo": "CrowdStrike/fusion-skills",
+      "ref": "v1.1.0",
+      "sha": "8df28a78be316f619a0a5227a401b395da990c40"
+    }
+  },
+  {
     "name": "datadog",
     "description": "Use Datadog directly in Copilot / VS Code through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboards, and more through natural conversation.",
     "version": "0.7.21",
@@ -452,7 +524,7 @@
   {
     "name": "figma",
     "description": "Plugin that includes the Figma MCP server and Skills for common workflows.",
-    "version": "1.0.0",
+    "version": "2.2.96",
     "author": {
       "name": "Figma",
       "url": "https://www.figma.com"
@@ -468,7 +540,8 @@
     "repository": "https://github.com/figma/mcp-server-guide",
     "source": {
       "source": "github",
-      "repo": "figma/mcp-server-guide"
+      "repo": "figma/mcp-server-guide",
+      "ref": "v2.2.96-figquery.1"
     }
   },
   {
@@ -557,7 +630,7 @@
   {
     "name": "github-copilot-modernization",
     "description": "Autonomous application modernization using multi-agent orchestration for GitHub Copilot CLI. Supports Java upgrades (8→21, Spring Boot 2.x→3.x), .NET modernization, Azure migration, CVE/vulnerability fixing, and application rearchitecture (monolith-to-microservices). Features a 3-level agent hierarchy (orchestrator → coordinators → executors) with enterprise rulebook support for embedding organizational policies into the workflow.",
-    "version": "1.22.0",
+    "version": "1.23.0",
     "author": {
       "name": "Microsoft",
       "url": "https://github.com/microsoft/github-copilot-modernization"
@@ -581,7 +654,7 @@
       "source": "github",
       "repo": "microsoft/github-copilot-modernization",
       "path": "plugins/github-copilot-modernization",
-      "sha": "8b644bebc7e1f929c01d80788293a37872f480f8"
+      "sha": "5d2a3268d816f794defb03a45cf527360b16071e"
     }
   },
   {
@@ -664,13 +737,13 @@
   {
     "name": "microsoft-foundry",
     "description": "Skills and interactive Copilot canvas for designing, configuring, testing and deploying agents to Microsoft Foundry.",
-    "version": "1.0.7",
+    "version": "1.0.9",
     "author": {
       "name": "Microsoft",
       "url": "https://www.microsoft.com"
     },
-    "repository": "https://github.com/microsoft/foundry-toolkit",
-    "homepage": "https://github.com/microsoft/foundry-toolkit",
+    "repository": "https://github.com/microsoft/foundry-dev-tools",
+    "homepage": "https://github.com/microsoft/foundry-dev-tools",
     "license": "MIT",
     "keywords": [
       "agent-builder",
@@ -683,9 +756,9 @@
     ],
     "source": {
       "source": "github",
-      "repo": "microsoft/foundry-toolkit",
+      "repo": "microsoft/foundry-dev-tools",
       "path": "microsoft-foundry",
-      "sha": "5d78641be6c789710222bc7248206ace115d5080"
+      "sha": "8c124d149fbbf3de1a122932bea226815f614964"
     }
   },
   {
@@ -865,6 +938,32 @@
       "source": "github",
       "repo": "Avyayalaya/pm-skills-arsenal",
       "ref": "v2.1.0"
+    }
+  },
+  {
+    "name": "rayfin",
+    "description": "Getting-started router skill for Rayfin - scaffold a new app with the Rayfin CLI, then use the version-locked skill installed in the project.",
+    "version": "0.3.0",
+    "author": {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com"
+    },
+    "repository": "https://github.com/microsoft/rayfin",
+    "homepage": "https://github.com/microsoft/rayfin",
+    "license": "MIT",
+    "keywords": [
+      "rayfin",
+      "getting-started",
+      "scaffold",
+      "create-rayfin",
+      "rayfin-cli",
+      "fabric",
+      "typescript"
+    ],
+    "source": {
+      "source": "github",
+      "repo": "microsoft/rayfin",
+      "ref": "plugin-v0.3.0"
     }
   },
   {
